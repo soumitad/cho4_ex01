@@ -15,4 +15,4 @@ if ($category_id != false) {
 }
 
 // Display the Product List page
-include('index.php');
+include('category_list.php');
