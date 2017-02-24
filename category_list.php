@@ -50,6 +50,9 @@ $statement->closeCursor();
     <form action="add_category.php" method="post"
               id="add_category_form">
 
+            <label>CategoryId:</label>
+            <input type="text" name="categoryId"><br>
+
             <label>Category:</label>
             <input type="text" name="category"><br>
 
