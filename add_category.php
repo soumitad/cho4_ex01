@@ -24,6 +24,6 @@ if ($category == null) {
     $statement->closeCursor();
 
     // Display the Product List page
-    include('index.php');
+    include('category_list.php');
 }
 ?>
